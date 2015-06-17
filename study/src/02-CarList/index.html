@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app ng-controller="CarListController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title ng-bind-template="车辆列表(共{{cars.length}}款)">车辆列表</title>
+    <script src="../../vendor/angular-js/1.0.1/angular-1.0.1.min.js"></script>
+    <script src="scripts/controller.js"></script>
+</head>
+<body>
+    <input ng-model="query">
+    <ul>
+        <li ng-repeat="car in cars | filter:query | orderBy:'maxPrice'">
+            {{car.name}} {{car.minPrice}}-{{car.maxPrice}}万
+        </li>
+    </ul>
+</body>
+</html>
