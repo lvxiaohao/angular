@@ -1,0 +1,13 @@
+[
+  {"name": "本田XR-V","minPrice": 12.78,"maxPrice": 16.28},
+  {"name": "长安CS35","minPrice": 7.89,"maxPrice": 9.89},
+  {"name": "瑞风S3","minPrice": 6.58,"maxPrice": 8.48},
+  {"name": "哈弗H2","minPrice": 9.88,"maxPrice": 12.88},
+  {"name": "北京现代ix25","minPrice": 11.98,"maxPrice": 18.68},
+  {"name": "缤智","minPrice": 12.88,"maxPrice": 18.98},
+  {"name": "昂科拉","minPrice": 13.99,"maxPrice": 19.69},
+  {"name": "中华V3","minPrice": 6.57,"maxPrice": 10.27},
+  {"name": "哈弗H1","minPrice": 6.89,"maxPrice": 8.29},
+  {"name": "翼搏","minPrice": 9.48,"maxPrice": 12.78},
+  {"name": "哈弗H6","minPrice": 9.58,"maxPrice": 16.28}
+]
