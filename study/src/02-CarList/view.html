@@ -1,0 +1,8 @@
+<ul>
+    {{name}}
+    <li ng-repeat="car in cars | filter:name | orderBy:'maxPrice'">
+        {{car.name}} {{car.minPrice}}-{{car.maxPrice}}万
+        <a href="{{car.imageUrl}}">{{car.name}}</a>
+        <img ng-src="{{car.imageUrl}}">
+    </li>
+</ul>
